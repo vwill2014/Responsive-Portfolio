@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 720px;
   margin: 0 auto;
   clear: both;
 }
@@ -149,7 +149,7 @@ h3,
 .main-section {
   float: left;
   width: 100%;
-  max-width: 650px;
+  max-width: 425px;
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
@@ -192,10 +192,10 @@ h3,
 
 .auth-image {
   float: left;
-  width: 200px;
+  width: 350px;
   height: auto;
   margin-top: 10px;
-  margin-right: 25px;
+  margin-right: -5px;
 }
 
 /* contact page */
@@ -237,3 +237,58 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  /* The body's bg color will be #333 */
+ 
+ body{
+   
+
+
+
+
+   
+  }
+
+
+  }
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+  body {
+    background: url(../images/flowers.png);
+    background-image: url(../images/flowers.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+
+}
+  
+
+
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 */
+ 
+ body{
+   
+
+
+
+
+
+  }
+
+
+  }
