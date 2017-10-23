@@ -239,58 +239,119 @@ input[type=submit] {
 }
 
 
-
-@media screen and (max-width: 980px) {
-
-
-
-
-}
-  /* The body's bg color will be #333 */
-  }
-/*
-  These rules take effect when the browser's width
-  is either 768px or less.
-*/
 @media screen and (max-width: 768px) {
-  /* The body's bg color will be #333 */
- 
-.main-section {
-     /*float: left;*/ 
-    width: 100%;
-    /* max-width: 425px; */
-    padding: 30px;
-    margin: 0 0 40px;
-    background: #fff;
-    border: 1px solid #ddd;
 
-}  
 
-  .container {
+ .container {
     width: 100%;
-    max-width: 750px;
     margin: 0 auto;
     clear: both;
 }
 
-
-    .auth-image {
+.sidebar {
     float: left;
-    width: 250px;
+    width: 100%;
+    max-width: 768px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+
+}
+
+.main-section {
+    width: 100%;
+    max-width: 750px;
+    float: left;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.auth-image {
+    float: left;
     height: auto;
     margin-top: 10px;
     margin-right: 10px;
+}
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    clear: both;
+
   }
 
-section.sidebar {
-    /* float: right; */
+#logo {
+    float: left;
     width: 100%;
-    /* max-width: 270px; */
+    height: 60px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    clear: both;
+}
+
+nav {
+     float: left; 
+    clear: both;
+    font-size:16px;
+
+
+}
+
+nav a {
+    display: inline-block;
+    padding-left: 60px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+    
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 640px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+
+.auth-image {
+    /* float: left; */
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.sidebar {
+    float: right;
+    width: 100%;
+    max-width: 640px;
     padding: 30px;
     margin-bottom: 20px;
     background: #fff;
     border: 1px solid #ddd;
 }
+
+
 
 }
 
