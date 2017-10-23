@@ -282,6 +282,18 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
 
+
+#masthead {
+    position: static;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
 .container {
     width: 100%;
     max-width: 600px;
